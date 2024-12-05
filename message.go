@@ -25,7 +25,7 @@ type MessageSendParam struct {
 
 //MessageResult ...
 type MessageResult struct {
-	*Return
+    *Return           `json:"return"`
 	Entries []Message `json:"entries"`
 }
 
